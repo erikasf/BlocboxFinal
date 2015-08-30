@@ -1,0 +1,139 @@
+ <html lang="en-us">
+ <head>
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="UTF-8">
+ 
+   <title>Dashboard | Blocbox</title>
+ 
+   <!-- Google Fonts -->
+   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic|Varela+Round' rel='stylesheet' type='text/css'>
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="dropit.css" type="text/css" />
+
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="dropit.js"></script>
+
+ 
+ </head>
+   <body class="dashboard">
+     <!-- RESPONSIVE NAV -->
+   <a class="hamburger" id="menu" href="#">&#9776;</a>
+
+   <!-- LEFT NAV -->
+   <nav id="left-nav" class="left-nav">
+     <a href="#" class="site-logo"><img src="images/site-logo.png" /></a>
+     <div class="items">
+       <p>Items</p>
+       <ul>
+         <li><a href="#"><i class="fa fa-th-large"></i> All Items</a></li>
+         <li><a href="#"><i class="fa fa-file-o"></i> Notes</a></li>
+         <li><a href="#"><i class="fa fa-picture-o"></i> Images</a></li>
+         <li><a href="#"><i class="fa fa-link"></i> Links</a></li>
+       </ul>
+       <p>Boxes</p>
+       <ul>
+         <li><a href="#"><i class="fa fa-inbox"></i> Landing Pages</a></li>
+         <li><a href="#"><i class="fa fa-inbox"></i> BB Photos</a></li>
+         <li><a href="#"><i class="fa fa-plus-square-o"></i> Add a new box</a></li>
+       </ul>
+     </div>
+       <div class="settings">
+     <img src="https://s3.amazonaws.com/uifaces/faces/twitter/jsa/128.jpg">
+     <p>Joey Kirk</p>
+     <a href="#"><i class="fa fa-cog"></i></a>
+   </div
+   </nav>
+         <main role="main">
+   <!-- Benefits -->
+   <section class="content">
+     <div class="container">
+       <div class="header">
+         <h1>All Items</h1>
+         <a href="#" class="btn">+ Add</a>
+                <ul class="menu">
+            <li>
+              <a href="#" class="btn">+ Add</a>
+              <ul>
+                  <li><a href="#"><i class="fa fa-file-o"></i> Note</a></li>
+                  <li><a href="#"><i class="fa fa-picture-o"></i> Image</a></li>
+                  <li><a href="#"><i class="fa fa-link"></i> Link</a></li>
+              </ul>
+            </li>
+          </ul>
+       </div>
+     </div>
+     <div class="container">
+       <div class="content-item">
+         <div class="item-box">
+           <img src = "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRyHSNu9Pa7QbSk3Mr5Lw_AoWIhI2uTxTluliJJ4C8PZpuo2O3"/>
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+           <h2><img src = "data:image/jpeg;base64,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KrTe3ysrW7udvKUrYqyDiibXLhNSOo4bELUUMjAqRcET5qUHF6Z9LGyMo7TKPk9UHMyW5vVt4629ryxfFrESXwiNTJPK2/kvsil0gM72hp4cFKVmqdBwXva30m3HxJ2vcvBgyMyFS4w8nlsdmxqq6VHvUDFhfmp108Df2nrOx/TknFdjzg5HNNSfcsNWkr23lBsb9oX15GYU2vBvlGMvKIHaPaFaKmnSINU6aahO89/dN2LiOx8peDDl5iguMfJX9l8oOIq77i9NTck/3Nxt366mbs3IVUeEfJhw8d2z5S8HQRIReMwBAEAwYBF59k64pACd11vut06g9xmjGyHTLfsZcnGV0fyUqtkeKpHSm/jSNwfTX1lf+rx5rcv8kd4t8HpI+qezeJZS3w7dzMN4+A/Np+/11EXxTCwrmt6PEYXF23Nyvb9vbt6cJ++pjfd2PPC/7e5u09k8QaZYhQ3JL6nrrwBnN9RqUtLwdVgWuOzSp1sVQ7Cmqg6WNvIW08p1cce36no5KV9fZbR64XJ8TiXuVbXi9Yn76nynmeTTStL/AAeoY91z2/8AJaqGy9JaD0+LONXI1B5W6C/KS5ZtkrFL49inHAgq3H3+SpVsLicHUJG8h/cmqsPp5GVY2U5Ee5LlXdRLsYq5via43DUdr6WQAX8d0RHHx6/q7CV99nbbJLK9kqlQFqp+GLGw4m/InoO6cLuoxj2h3O9PT5yW5djQxGWYnCvcBx0elexHl9DO0cii9fVr+TjKi6l9t/wfFSvi6/ZJrOOlmA87AXn7xx6+/Y88r7O3cmsl2SNw2IsBxCA3v/M/YTJk9QWuNf8AybMfp7+6wlNodnhiAGp2WoosOQYcgbcPGZsXMdT1LumacrDVi3HyVI5biqRKinVXr8Mmx81Osqevjz7vRL9G+HbTMNkmJVQ5osBfl8w77DUT9/qqJPjs/HjXRXLQbG4txuF6x5Ws3ubXMeljJ8uw9S99tskMp2UqVCGrfpr0/uPly85wu6hCPavud6cCc+8+yNfMsgr4d95AzKDdXp3uPEDUGe6suq2Op+TxbiW1S3E8Gx2LcbpeseVgG9yBee/TxovfY5+pe+22b+UbKVKhDVv006H5m/HnON+fCK1X3ZoowJze59kXfDYdaaBEUKo0AEjSm5PbLMIRgtRPaeT2IAgCAIAgC0AxaAZgCAYtA0ZgCAYIvB+NbPlaYHAAeAn7tn4opeEfc/D0IBi0AWgGYBi0AzaAYtB+aFoP0WgC0H5ozB+iAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIB//Z"/><a href = "http://airbnb.com">Airbnb<</a></h2>
+             <p> Vacation Rentals, Homes, Aparments &amp; Rooms for Rent &mdash; Airbnb</p>
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+           <h2><a href="#">Need to find a designer<a></h2>
+             <Put your recommendations here so we can view all of them. ...</p>
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+           <img src = "http://41.media.tumblr.com/90ef0b4692e0ba4df321674c3572e5ba/tumblr_ndyve8fmFa1tubinno1_r1_1280.jpg"/>
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+           <h2><a href = "#">Testing</a></h2>
+           <p> I love lamp</p>
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+           <h2> <img class = "favicon" src = "https://www.invisionapp.com/favicon.ico"><a href = "#">invisionapp.com</a></h2>
+           <p> Free Web &amp; Mobile(ios, Android) Prototyping and UI Mockup Tool | InVision</p>
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+           <img src = "https://images.unsplash.com/photo-1437075130536-230e17c888b5?q=80&fm=jpg&s=9b73917f45dd1bed866904833e297478 width= "480px" height = "360px"">
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+           <h2><a href = "#">Why storing inspiration is great</a></h2>
+           <p>blocbox is a new tool to help collect and store your inspiration and information. From images, to links, to notes like this one, you can keep track of all your favorite things.</p>
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+         </div>
+       </div>
+       <div class="content-item">
+         <div class="item-box">
+         </div>
+       </div>
+     </div> 
+   </section>
+         </main>
+          <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/dropit.js"></script>
+   <script type="text/javascript">
+     $(".menu").dropit();
+   </script>
+     <script type="text/javascript">
+     $(".menu").dropit();
+     $( "#menu" ).click(function() {
+         $("#left-nav").toggleClass("open", 200);
+     });
+   </script>
+ </body>
+ </html>

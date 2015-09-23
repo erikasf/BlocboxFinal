@@ -2,6 +2,9 @@
  .dashboard {
    background:#F7F7F7;
  }
+ *{
+  width: 1180px;
+ }
  .left-nav {
    height: 100%;
    width:280px;
